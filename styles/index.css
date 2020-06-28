@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.nunito {
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+.open-sans {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.active {
+  color: #f48a4e;
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0.125rem;
+  background-color: #f48a4e;
+  border-radius: 1rem;
+}
