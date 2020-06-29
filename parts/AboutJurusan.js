@@ -50,13 +50,13 @@ export default function AboutJurusan() {
           mereka dapat memilih yang sesuai dengan minat dan bakatnya. SMK Negeri
           3 Jember memiliki jumlah total 9 kompetensi keahlian.
         </p>
-        <Button className="mt-4" href="/profil/sekolah" />
+        <Button className="mt-4" href="/profil/jurusan" text="Selengkapnya" />
       </div>
       <div className="col-span-6 self-end rounded-md overflow-hidden">
         <Carousel autoPlay infiniteLoop>
           {data.map((data, index) => (
             <div key={index}>
-              <img src={data.url} alt={data.name}/>
+              <img src={data.url} alt={data.name} />
             </div>
           ))}
         </Carousel>
