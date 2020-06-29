@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/router"
 import Link from "next/link"
-import Arrow from "../public/arrow.svg"
+import Arrow from "public/icons/arrow.svg"
 
 export default function Navbar({ currentPage }) {
   const router = useRouter()
@@ -10,9 +10,6 @@ export default function Navbar({ currentPage }) {
   useEffect(() => {
     window.addEventListener("scroll", () => setOffsetY(window.pageYOffset))
   }, [])
-
-  const uwu =
-    "fixed z-10 t-0 inset-x-0 h-16 nunito bg-white text-blue-900 border-b-2 border-gray-300"
 
   return (
     <nav
