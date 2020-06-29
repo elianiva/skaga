@@ -18,7 +18,7 @@ export default function About() {
           dengan akreditasi A. Siswa tidak hanya diajari teori namun juga
           diajarkan berbagai macam praktek yang akan berguna di dunia industri.
         </p>
-        <Button className="mt-4" href="/profil/sekolah" />
+        <Button className="mt-4" href="/profil/sekolah" text="Selengkapnya" />
       </div>
     </div>
   )
