@@ -1,5 +1,4 @@
 import { useRouter } from "next/router"
-import { useEffect } from "react"
 
 export default function Breadcrumb() {
   const router = useRouter()
@@ -15,7 +14,7 @@ export default function Breadcrumb() {
           </span>
         ) : (
           <span className="text-orange capitalize font-semibold" key={index}>
-            {route}
+            {route.replace(/-/g, " ")}
           </span>
         )
       )}
