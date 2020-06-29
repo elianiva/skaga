@@ -1,7 +1,7 @@
-import FacebookIcon from "../public/facebook_icon.svg"
-import InstagramIcon from "../public/instagram_icon.svg"
-import MailIcon from "../public/mail_icon.svg"
-import PhoneIcon from "../public/phone_icon.svg"
+import FacebookIcon from "public/icons/facebook_icon.svg"
+import InstagramIcon from "public/icons/instagram_icon.svg"
+import MailIcon from "public/icons/mail_icon.svg"
+import PhoneIcon from "public/icons/phone_icon.svg"
 
 export default function Footer() {
   return (
