@@ -12,7 +12,7 @@ export default function Card({ imgUrl, alt, jurusan, deskripsi, href }) {
         <p className="open-sans text-gray-700 leading-relaxed mb-4">
           {deskripsi}
         </p>
-        <Button href={href} />
+        <Button href={href} text="Selengkapnya" />
       </div>
     </div>
   )
