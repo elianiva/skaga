@@ -6,7 +6,7 @@ import PhoneIcon from "../public/phone_icon.svg"
 export default function Footer() {
   return (
     <>
-      <div className="pt-8 border-t-2 border-gray-200">
+      <div className="pt-8 border-t-2 border-gray-300">
         <div className="flex max-w-5xl m-auto items-center">
           <div className="flex flex-col flex-1">
             <div className="flex items-center">
