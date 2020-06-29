@@ -36,7 +36,7 @@ export default function Navbar({ currentPage }) {
             <Link href="/">
               <a
                 title="Beranda"
-                className={router.pathname === "/" && "active"}
+                className={router.pathname === "/" ? "active" : ""}
               >
                 Beranda
               </a>
@@ -46,17 +46,18 @@ export default function Navbar({ currentPage }) {
             <Link href="/berita">
               <a
                 title="Berita"
-                className={router.pathname === "/berita" && "active"}
+                className={router.pathname === "/berita" ? "active" : ""}
               >
                 Berita
               </a>
             </Link>
           </div>
           <div className="flex items-center justify-center cursor-pointer hover:text-orange">
-            <Link href="/jurusan">
+            <Link href="/profil/jurusan">
+              {/* prettier-ignore */}
               <a
                 title="Jurusan"
-                className={router.pathname === "/jurusan" && "active"}
+                className={ router.pathname === "/profil/jurusan" ? "active" : "" }
               >
                 Jurusan
               </a>
