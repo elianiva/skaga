@@ -3,7 +3,7 @@ import Card from "components/Card"
 import Title from "components/Title"
 import Breadcrumb from "components/Breadcrumb"
 
-export default function JurusanPage() {
+export default function SemuaJurusan() {
   return (
     <Layout title="Jurusan">
       <div className="m-auto max-w-5xl pt-24">
@@ -11,7 +11,7 @@ export default function JurusanPage() {
         <Title title="Kompetensi Keahlian" />
         <Card
           imgUrl="/jurusan/perhotelan.jpg"
-          jurusan="Perhotelan"
+          jurusan="Akomodasi Perhotelan"
           deskripsi="Perhotelan merupakan bidang ilmu yang mempelajari pengelolaan hotel serta cara menyeimbangkan aspek wisata dan manajemen bisnis untuk mencapai kesuksesan."
           href="/profil/jurusan/perhotelan"
         />
@@ -47,9 +47,9 @@ export default function JurusanPage() {
         />
         <Card
           imgUrl="/jurusan/tkj.jpg"
-          jurusan="Teknologi Komputer dan Jaringan"
+          jurusan="Teknik Komputer dan Jaringan"
           deskripsi="Program studi yang mempelajari tentang cara-cara merakit komputer dan menginstalasi program komputer. Program studi ini juga membahas hal yang berkaitan dengan jaringan."
-          href="/profil/jurusan/teknologi-komputer-dan-jaringan"
+          href="/profil/jurusan/teknik-komputer-dan-jaringan"
         />
         <Card
           imgUrl="/jurusan/rpl.jpg"
