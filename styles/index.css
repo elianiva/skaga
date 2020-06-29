@@ -29,3 +29,10 @@
   background-color: #f48a4e;
   border-radius: 1rem;
 }
+
+.bread-item::after {
+  content: "/";
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: #c4c4c4;
+}
