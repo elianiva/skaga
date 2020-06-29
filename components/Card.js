@@ -1,6 +1,6 @@
 import Button from "./Button"
 
-export default function Card({ imgUrl, alt, jurusan, deskripsi }) {
+export default function Card({ imgUrl, alt, jurusan, deskripsi, href }) {
   return (
     <div className="grid grid-cols-12 gap-4 items-center mb-12">
       <img src={imgUrl} alt={alt} className="col-span-5 rounded-md" />
@@ -12,7 +12,7 @@ export default function Card({ imgUrl, alt, jurusan, deskripsi }) {
         <p className="open-sans text-gray-700 leading-relaxed mb-4">
           {deskripsi}
         </p>
-        <Button />
+        <Button href={href} />
       </div>
     </div>
   )
