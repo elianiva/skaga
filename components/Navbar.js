@@ -31,12 +31,14 @@ export default function Navbar({ currentPage }) {
     >
       <div className="max-w-5xl flex items-center m-auto h-full">
         <h1 className="font-extrabold text-2xl flex-1">SMKN 3 Jember</h1>
-        <div className="grid grid-cols-5 justify-center items-center gap-4 font-semibold tracking-wider">
+        <div className="grid grid-cols-5 justify-center items-center gap-4 tracking-wider">
           <div className="flex items-center justify-center cursor-pointer hover:text-orange">
             <Link href="/">
               <a
                 title="Beranda"
-                className={router.pathname === "/" ? "active" : ""}
+                className={
+                  router.pathname === "/" ? "active font-semibold" : ""
+                }
               >
                 Beranda
               </a>
@@ -46,7 +48,9 @@ export default function Navbar({ currentPage }) {
             <Link href="/berita">
               <a
                 title="Berita"
-                className={router.pathname === "/berita" ? "active" : ""}
+                className={
+                  router.pathname === "/berita" ? "active font-semibold" : ""
+                }
               >
                 Berita
               </a>
@@ -57,7 +61,7 @@ export default function Navbar({ currentPage }) {
               {/* prettier-ignore */}
               <a
                 title="Jurusan"
-                className={ router.pathname === "/profil/jurusan" ? "active" : "" }
+                className={ router.pathname === "/profil/jurusan" ? "active font-semibold" : "" }
               >
                 Jurusan
               </a>
