@@ -1,9 +1,9 @@
-import Layout from "../components/Layout"
-import Card from "../components/Card"
-import Title from "../components/Title"
-import Breadcrumb from "../components/Breadcrumb"
+import Layout from "../../components/Layout"
+import Card from "../../components/Card"
+import Title from "../../components/Title"
+import Breadcrumb from "../../components/Breadcrumb"
 
-export default function Jurusan() {
+export default function JurusanPage() {
   return (
     <Layout title="Jurusan">
       <div className="m-auto max-w-5xl pt-24">
