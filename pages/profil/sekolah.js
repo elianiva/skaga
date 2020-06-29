@@ -72,8 +72,8 @@ export default function SekolahPage() {
         </p>
         <h1 className="text-2xl font-bold mt-8">Misi</h1>
         <ol className="list-decimal list-outside pl-6">
-          {misi.map(misi => (
-            <li>{misi}</li>
+          {misi.map((misi, index) => (
+            <li key={index}>{misi}</li>
           ))}
         </ol>
         <h1 className="text-2xl font-bold mt-8">Tujuan</h1>
