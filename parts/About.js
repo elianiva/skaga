@@ -2,7 +2,7 @@ import Button from "../components/Button"
 
 export default function About() {
   return (
-    <div className="grid grid-cols-12 gap-4 my-8">
+    <div className="grid grid-cols-12 gap-4 my-8 text-blue-900">
       <div className="col-span-6">
         <img
           src="/about_cover.jpg"

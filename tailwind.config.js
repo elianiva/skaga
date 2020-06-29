@@ -8,7 +8,10 @@ module.exports = {
     extend: {
       colors: {
         orange: "#f48a4e",
-        orangeHover: "#FF9849"
+        orangeHover: "#FF9849",
+        blue: {
+          "900": "#222F48"
+        }
       }
     }
   },
