@@ -37,6 +37,10 @@
   color: #c4c4c4;
 }
 
+.thumbs-wrapper {
+  display: none;
+}
+
 .carousel-status {
   display: none;
 }
