@@ -2,7 +2,7 @@ export default function Image({ src, className, alt }) {
   return (
     <div className={className}>
       <img
-        className="blurred absolute inset-0"
+        className="blurred"
         src={require(`images/${src}?lqip`)}
         alt="placeholder"
       />
