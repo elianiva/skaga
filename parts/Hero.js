@@ -12,7 +12,7 @@ export default function Hero() {
         className="absolute w-full h-full z-0 object-cover"
       />
       <span className="text-white z-10 text-lg">Selamat datang di website</span>
-      <h1 className="text-white font-bold text-5xl z-10">
+      <h1 className="text-white font-bold text-3xl lg:text-5xl z-10">
         SMK Negeri 3 Jember
       </h1>
     </div>

@@ -3,28 +3,28 @@ import Image from "components/Image"
 
 export default function Instagallery() {
   return (
-    <div className="bg-gray-100 py-4">
+    <div className="bg-gray-100 py-4 px-4 lg:px-0">
       <Title title="Instagallery" />
-      <div className="max-w-5xl m-auto grid grid-cols-4 gap-4">
+      <div className="max-w-5xl m-auto grid justify-center lg:grid-cols-4 gap-4">
         <Image
           src="instagallery/instagram1.jpg"
           alt="Instagallery 1"
-          className="w-64 h-64 object-cover rounded-md shadow-md border border-gray-500"
+          className="lg:w-64 lg:h-64 object-cover rounded-md shadow-md border border-gray-500"
         />
         <Image
           src="instagallery/instagram2.jpg"
           alt="Instagallery 2"
-          className="w-64 h-64 object-cover rounded-md shadow-md border border-gray-500"
+          className="lg:w-64 lg:h-64 object-cover rounded-md shadow-md border border-gray-500"
         />
         <Image
           src="instagallery/instagram3.jpg"
           alt="Instagallery 3"
-          className="w-64 h-64 object-cover rounded-md shadow-md border border-gray-500"
+          className="lg:w-64 lg:h-64 object-cover rounded-md shadow-md border border-gray-500"
         />
         <Image
           src="instagallery/instagram4.jpg"
           alt="Instagallery 4"
-          className="w-64 h-64 object-cover rounded-md shadow-md border border-gray-500"
+          className="lg:w-64 lg:h-64 object-cover rounded-md shadow-md border border-gray-500"
         />
       </div>
       <span className="block text-xl nunito text-center my-4">

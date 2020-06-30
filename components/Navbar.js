@@ -160,13 +160,7 @@ export default function Navbar({ currentPage }) {
           </div>
           <div className="flex items-center justify-center cursor-pointer my-4">
             <Link href="/profil/jurusan">
-              {/* prettier-ignore */}
-              <a
-                title="Jurusan"
-                className={ router.pathname === "/profil/jurusan" ? "active font-semibold" : "" }
-              >
-                Jurusan
-              </a>
+              <a title="Jurusan">Jurusan</a>
             </Link>
           </div>
           <div className="group relative flex flex-col items-center justify-center cursor-pointer my-4">

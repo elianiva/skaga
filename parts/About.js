@@ -3,15 +3,15 @@ import Image from "components/Image"
 
 export default function About() {
   return (
-    <div className="grid grid-cols-12 gap-4 my-8 text-blue-900">
-      <div className="col-span-6">
+    <div className="justify-center grid lg:grid-cols-2 lg:gap-4 my-8 text-blue-900">
+      <div>
         <Image
           src="about_cover.jpg"
           alt="Foto SMKN 3 Jember"
-          className="w-11/12 h-full"
+          className="mb-8 lg:mb-0 lg:w-11/12 lg:h-full"
         />
       </div>
-      <div className="col-span-6 nunito flex flex-col justify-center items-start">
+      <div className="nunito flex flex-col justify-center items-start">
         <h1 className="text-2xl leading-snug">Tentang</h1>
         <h2 className="text-4xl font-semibold">SMKN 3 Jember</h2>
         <p className="text-gray-700 open-sans leading-loose">

@@ -11,11 +11,11 @@ export default function Home({ allNews }) {
   return (
     <Layout title="Beranda">
       <Hero />
-      <div className="max-w-5xl m-auto mt-8">
+      <div className="max-w-5xl m-auto mt-8 px-4 lg:px-0">
         <About />
       </div>
       <Statistic />
-      <div className="max-w-5xl m-auto mt-8">
+      <div className="max-w-5xl m-auto mt-8 px-4 lg:px-0">
         <MajorSection />
         <News data={allNews} />
       </div>

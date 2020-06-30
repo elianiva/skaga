@@ -43,9 +43,11 @@ export default function MajorSection() {
   ]
 
   return (
-    <div className="grid grid-cols-12 gap-4 my-8 text-blue-900">
-      <div className="col-span-6 nunito flex flex-col justify-center items-start">
-        <h2 className="text-3xl mb-4">Berbagai Macam Kompetensi Keahlian</h2>
+    <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-4 my-8 text-blue-900">
+      <div className="nunito flex flex-col justify-center items-start">
+        <h2 className="text-2xl lg:text-3xl mb-2 lg:mb-4 font-semibold">
+          Berbagai Macam Kompetensi Keahlian
+        </h2>
         <p className="text-gray-700 open-sans leading-loose">
           Calon peserta didik diberi banyak pilihan kometensi keahlian sehingga
           mereka dapat memilih yang sesuai dengan minat dan bakatnya. SMK Negeri
@@ -53,7 +55,7 @@ export default function MajorSection() {
         </p>
         <Button className="mt-4" href="/profil/jurusan" text="Selengkapnya" />
       </div>
-      <div className="col-span-6 self-end rounded-md overflow-hidden">
+      <div className="self-end rounded-md overflow-hidden mb-4 lg:mb-0">
         <Carousel autoPlay infiniteLoop showThumbs="false">
           {data.map((data, index) => (
             <div key={index}>

@@ -8,7 +8,7 @@ export default function News({ data }) {
   return (
     <div className="m-auto mb-8">
       <Title title="Berita dan Informasi" />
-      <div className="grid grid-cols-3 gap-4 mb-4">
+      <div className="grid lg:grid-cols-3 gap-4 mb-4">
         {data.slice(0, 3).map((news, index) => (
           <NewsCard
             imgUrl={news.cover}

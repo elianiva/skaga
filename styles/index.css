@@ -45,6 +45,7 @@
   display: none;
 }
 
+/*---markdown stuff---*/
 .markdown h1,
 .markdown h2,
 .markdown h3,
@@ -68,4 +69,22 @@
 
 .markdown p {
   margin-bottom: 2rem;
+}
+
+/*---hamburger menu---*/
+.hamburger span {
+  height: 0.125rem;
+  transition: all ease-out 0.2s;
+}
+
+.hamburger input:checked ~ span:nth-child(2) {
+  transform: rotateZ(45deg) translateY(0.9rem);
+}
+
+.hamburger input:checked ~ span:nth-child(3) {
+  transform: scale(0);
+}
+
+.hamburger input:checked ~ span:nth-child(4) {
+  transform: rotateZ(-45deg) translateY(-0.9rem);
 }
