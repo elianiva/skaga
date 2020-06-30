@@ -6,7 +6,7 @@ import { getAllNewsId, getNewsData } from "lib/news"
 export default ({ newsData }) => {
   return (
     <Layout title={newsData.title}>
-      <div className="max-w-5xl m-auto mb-16 pt-20">
+      <div className="max-w-5xl m-auto mb-16 pt-20 px-4 lg:px-0">
         <Title title={newsData.title} />
         <hr className="my-8" />
         <div

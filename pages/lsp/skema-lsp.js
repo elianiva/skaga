@@ -7,7 +7,7 @@ import { data } from "pages/lsp/data-skema"
 export default function SkemaLSP() {
   return (
     <Layout title="Skema LSP">
-      <div className="max-w-5xl m-auto pt-24 pb-16">
+      <div className="max-w-5xl m-auto pt-24 pb-16 px-4 lg:px-0">
         <Breadcrumb />
         <Title title="Skema LSP" />
         {data.map(data => (

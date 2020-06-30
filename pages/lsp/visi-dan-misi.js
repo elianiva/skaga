@@ -5,7 +5,7 @@ import Breadcrumb from "components/Breadcrumb"
 export default function VisiDanMisi() {
   return (
     <Layout title="Visi, Misi, dan Tujuan LSP">
-      <div className="max-w-5xl m-auto pt-24 open-sans text-gray-800 text-lg leading-relaxed mb-16">
+      <div className="max-w-5xl m-auto pt-24 open-sans text-gray-800 text-lg leading-relaxed mb-16 px-4 lg:px-0">
         <Breadcrumb />
         <Title title="Visi, Misi dan Tujuan" />
         <h1 className="text-2xl font-bold mt-8 text-blue-900">Visi</h1>

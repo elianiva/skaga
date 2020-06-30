@@ -6,7 +6,7 @@ import Breadcrumb from "components/Breadcrumb"
 export default function SejarahLSP() {
   return (
     <Layout title="Sejarah Singkat">
-      <div className="max-w-5xl m-auto pt-24">
+      <div className="max-w-5xl m-auto pt-24 px-4 lg:px-0">
         <Breadcrumb />
         <Title title="Sejarah Singkat" />
         <h1 className="nunito text-xl font-bold">
@@ -18,9 +18,9 @@ export default function SejarahLSP() {
           mendapatkan Lisensi pada Juni 2015 dari BNSP. Penambahan Ruang lingkup
           dilakukan pada tahun 2016 dan mendapatkan Lisensi pada Nopember 2016.
         </p>
-        <div className="grid grid-cols-12 grid-flow-col-dense gap-4">
-          <div className="grid grid-cols-7 col-span-7">
-            <div className="col-span-3">
+        <div className="flex flex-col-reverse lg:grid lg:grid-cols-12 grid-flow-col-dense gap-4">
+          <div className="lg:grid lg:grid-cols-7 col-span-7">
+            <div className="col-span-3 mb-8 lg:mb-0">
               <h1 className="nunito text-xl font-bold">Warna Logo</h1>
               <div className="grid grid-cols-3 open-sans text-lg text-gray-800 leading-relaxed">
                 <span>Biru</span>
@@ -59,7 +59,7 @@ export default function SejarahLSP() {
               </p>
             </div>
           </div>
-          <div className="col-span-5">
+          <div className="col-span-5 mb-8 lg:mb-8">
             <Image src="lsp/logo_lsp.jpg" />
           </div>
         </div>

@@ -6,7 +6,7 @@ import Image from "components/Title"
 export default () => {
   return (
     <Layout title="Teknik Komputer dan Jaringan">
-      <div className="max-w-5xl pt-24 m-auto open-sans text-lg text-blue-900 leading-relaxed">
+      <div className="max-w-5xl pt-24 m-auto open-sans lg:text-lg text-blue-900 leading-relaxed px-4 lg:px-0">
         <Breadcrumb />
         <Title title="Teknik Komputer dan Jaringan" />
         <Image

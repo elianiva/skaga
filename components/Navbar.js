@@ -168,7 +168,7 @@ export default function Navbar({ currentPage }) {
               <span className="mr-2">Profil</span>
               <Arrow />
             </div>
-            <div className="group-hover:block hidden w-64 text-center">
+            <div className="group-focus:block hidden w-64 text-center">
               <div className="grid grid-rows-3 bg-white text-blue-900 p-4">
                 <Link href="/profil/sekolah">
                   <a className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
@@ -193,7 +193,7 @@ export default function Navbar({ currentPage }) {
               <span className="mr-2">LSP</span>
               <Arrow />
             </div>
-            <div className="group-hover:block hidden w-64 text-center">
+            <div className="group-focus:block hidden w-64 text-center">
               <div className="grid grid-rows-3 bg-white text-blue-900 p-4">
                 <Link href="/lsp/ketua-lsp">
                   <a className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">

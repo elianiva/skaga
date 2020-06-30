@@ -7,7 +7,7 @@ import SmallCard from "components/SmallCard"
 export default function StafDanGuru() {
   return (
     <Layout title="Staf dan Guru">
-      <div className="max-w-5xl m-auto pt-24">
+      <div className="max-w-5xl m-auto pt-24 px-4 lg:px-0">
         <Breadcrumb />
         <Title title="Staf dan Guru" />
         <Image
@@ -15,7 +15,7 @@ export default function StafDanGuru() {
           alt="Struktur SMKN 3 Jember"
           className="mb-8"
         />
-        <div className="grid grid-cols-4 gap-4 mb-16">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
           <SmallCard
             imgUrl="kepala_sekolah.jpg"
             alt="Foto Kepala Sekolah"

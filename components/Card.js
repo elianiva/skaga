@@ -4,8 +4,12 @@ import Image from "./Image"
 export default function Card({ imgUrl, alt, jurusan, deskripsi, href }) {
   return (
     <div className="grid grid-cols-12 gap-4 items-center mb-12">
-      <Image src={imgUrl} alt={alt} className="col-span-5 rounded-md" />
-      <div className="col-span-7 flex flex-col items-start ml-4">
+      <Image
+        src={imgUrl}
+        alt={alt}
+        className="col-span-12 lg:col-span-5 rounded-md"
+      />
+      <div className="col-span-12 lg:col-span-7 flex flex-col items-start lg:ml-4">
         <span className="nunito text-lg text-blue-900">
           Kompetensi Keahlian
         </span>

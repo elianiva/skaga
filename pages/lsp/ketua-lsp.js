@@ -6,10 +6,10 @@ import SmallCard from "components/SmallCard"
 export default function KetuaLSP() {
   return (
     <Layout title="Ketua LSP">
-      <div className="max-w-5xl m-auto pt-24">
+      <div className="max-w-5xl m-auto pt-24 px-4 lg:px-0">
         <Breadcrumb />
         <Title title="Sambutan Ketua LSP" />
-        <div className="grid grid-cols-12 gap-8">
+        <div className="flex flex-col-reverse lg:grid lg:grid-cols-12 gap-8">
           <div className="col-span-9 text-justify text-lg text-gray-800 leading-relaxed">
             <p className="mb-8">
               Puji Syukur kami panjatkan kepada Tuhan Yang Maha Esa karena kasih
@@ -49,7 +49,7 @@ export default function KetuaLSP() {
               kompeten, profesional dan kompetitif.
             </p>
           </div>
-          <div className="col-span-3">
+          <div className="col-span-3 mb-8 lg:mb-0">
             <SmallCard
               imgUrl="lsp/ketua_lsp.jpg"
               name="Kristin Asri, S.Pd."

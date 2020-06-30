@@ -6,7 +6,7 @@ import Breadcrumb from "components/Breadcrumb"
 export default function SemuaJurusan() {
   return (
     <Layout title="Jurusan">
-      <div className="m-auto max-w-5xl pt-24">
+      <div className="m-auto max-w-5xl pt-24 px-4 lg:px-0">
         <Breadcrumb />
         <Title title="Kompetensi Keahlian" />
         <Card

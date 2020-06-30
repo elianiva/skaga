@@ -10,10 +10,10 @@ import { getSortedNews } from "lib/news"
 export default function NewsPage({ allNews }) {
   return (
     <Layout title="Berita">
-      <div className="max-w-5xl m-auto pt-24">
+      <div className="max-w-5xl m-auto pt-24 px-4 lg:px-0">
         <Breadcrumb />
         <Title title="Berita dan Informasi" />
-        <div className="grid grid-cols-3 gap-4 mb-16">
+        <div className="grid lg:grid-cols-3 gap-4 mb-16">
           {allNews.map((news, index) => (
             <NewsCard
               imgUrl={news.cover}

@@ -19,7 +19,7 @@ export default function SekolahPage() {
 
   return (
     <Layout title="Tentang Sekolah">
-      <div className="max-w-5xl pt-24 m-auto open-sans text-lg text-blue-900 leading-relaxed">
+      <div className="max-w-5xl pt-24 m-auto open-sans lg:text-lg text-blue-900 leading-relaxed px-4 lg:px-0">
         <Breadcrumb />
         <Title title="Profil SMKN 3 Jember" />
         <Image src="smol_cover.jpg" alt="Foto SMKN 3 Jember" />
