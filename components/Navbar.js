@@ -68,13 +68,54 @@ export default function Navbar({ currentPage }) {
               </a>
             </Link>
           </div>
-          <div className="flex items-center justify-center cursor-pointer">
+          <div className="group relative flex items-center justify-center cursor-pointer">
             <span className="mr-2">Profil</span>
             <Arrow />
+            <div
+              className="group-hover:block hidden absolute w-64 pt-6"
+              style={{ right: `-0.5rem`, top: `50%` }}
+            >
+              <div className="grid grid-rows-3 bg-white text-blue-900 p-4 rounded-md border-2 border-gray-300">
+                <Link href="/profil/sekolah">
+                  <a className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
+                    Sekolah
+                  </a>
+                </Link>
+                <Link href="/profil/staf-dan-guru">
+                  <a className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
+                    Staf dan Guru
+                  </a>
+                </Link>
+                <Link href="/profil/komite-sekolah">
+                  <a className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
+                    Komite Sekolah
+                  </a>
+                </Link>
+              </div>
+            </div>
           </div>
-          <div className="flex items-center justify-center cursor-pointer">
+          <div className="group relative flex items-center justify-center cursor-pointer">
             <span className="mr-2">LSP</span>
             <Arrow />
+            <div
+              className="group-hover:block hidden absolute w-64 pt-6"
+              style={{ right: `-0.5rem`, top: `50%` }}
+            >
+              <div className="grid grid-rows-3 bg-white text-blue-900 p-4 rounded-md border-2 border-gray-300">
+                <span className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
+                  Ketua LSP
+                </span>
+                <span className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
+                  Sejarah Singkat
+                </span>
+                <span className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
+                  Skema LSP
+                </span>
+                <span className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
+                  Visi dan Misi
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
