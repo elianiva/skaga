@@ -6,7 +6,7 @@ module.exports = {
         orange: "#f48a4e",
         orangeHover: "#FF9849",
         lightOrange: "#FAC2A2",
-        darkOrange: "#893C10",
+        darkOrange: "#75320C",
         blue: {
           "900": "#222F48"
         }
@@ -17,6 +17,8 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    display: ["responsive", "focus", "group-hover"]
+  },
   plugins: []
 }
