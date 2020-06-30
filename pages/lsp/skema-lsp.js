@@ -2,7 +2,7 @@ import Layout from "components/Layout"
 import Title from "components/Title"
 import Breadcrumb from "components/Breadcrumb"
 import Skema from "components/Skema"
-import { data } from "pages/lsp/data-skema"
+import { data } from "lib/data-skema"
 
 export default function SkemaLSP() {
   return (
