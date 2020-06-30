@@ -27,7 +27,11 @@ export default function Navbar({ currentPage }) {
       }}
     >
       <div className="max-w-5xl flex items-center m-auto h-full">
-        <h1 className="font-extrabold text-2xl flex-1">SMKN 3 Jember</h1>
+        <h1 className="font-extrabold text-2xl flex-1">
+          <Link href="/">
+            <a title="Beranda">SMKN 3 Jember</a>
+          </Link>
+        </h1>
         <div className="grid grid-cols-5 justify-center items-center gap-4 tracking-wider">
           <div className="flex items-center justify-center cursor-pointer hover:text-orange">
             <Link href="/">
