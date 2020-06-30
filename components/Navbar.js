@@ -102,18 +102,26 @@ export default function Navbar({ currentPage }) {
               style={{ right: `-0.5rem`, top: `50%` }}
             >
               <div className="grid grid-rows-3 bg-white text-blue-900 p-4 rounded-md border-2 border-gray-300">
-                <span className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
-                  Ketua LSP
-                </span>
-                <span className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
-                  Sejarah Singkat
-                </span>
-                <span className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
-                  Skema LSP
-                </span>
-                <span className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
-                  Visi dan Misi
-                </span>
+                <Link href="/lsp/ketua-lsp">
+                  <a className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
+                    Ketua LSP
+                  </a>
+                </Link>
+                <Link href="/lsp/sejarah-singkat">
+                  <a className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
+                    Sejarah Singkat
+                  </a>
+                </Link>
+                <Link href="/lsp/skema-lsp">
+                  <a className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
+                    Skema LSP
+                  </a>
+                </Link>
+                <Link href="/lsp/visi-dan-misi">
+                  <a className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
+                    Visi dan Misi
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
