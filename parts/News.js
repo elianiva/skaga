@@ -16,6 +16,7 @@ export default function News({ data }) {
             desc={news.excerpt}
             date={format(parseISO(news.date), "dd MMMM yyyy", { locale: id })}
             key={index}
+            href={news.id}
           />
         ))}
       </div>

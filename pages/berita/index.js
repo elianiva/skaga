@@ -5,7 +5,7 @@ import Button from "components/Button"
 import NewsCard from "components/NewsCard"
 import Breadcrumb from "components/Breadcrumb"
 import Layout from "components/Layout"
-import { getSortedNews } from "lib/berita"
+import { getSortedNews } from "lib/news"
 
 export default function NewsPage({ allNews }) {
   return (
@@ -23,6 +23,7 @@ export default function NewsPage({ allNews }) {
                 locale: id
               })}
               key={index}
+              href={news.id}
             />
           ))}
         </div>

@@ -5,7 +5,7 @@ import Statistic from "parts/Statistic"
 import AboutJurusan from "parts/AboutJurusan"
 import News from "parts/News"
 import Instagallery from "parts/Instagallery"
-import { getSortedNews } from "lib/berita"
+import { getSortedNews } from "lib/news"
 
 export default function Home({ allNews }) {
   return (
