@@ -1,5 +1,5 @@
 import { Carousel } from "react-responsive-carousel"
-import Button from "../components/Button"
+import Button from "components/Button"
 
 export default function AboutJurusan() {
   const data = [
