@@ -6,6 +6,10 @@ module.exports = withReactSvg({
   webpack(config, options) {
     // set root directory for importing modules to ./
     config.resolve.modules.push(path.resolve("./"))
+    // Fixes npm packages that depend on `fs` module
+    config.node = {
+      fs: "empty"
+    }
     return config
   }
 })

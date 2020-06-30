@@ -3,6 +3,8 @@ import { id } from "date-fns/locale"
 import Title from "components/Title"
 import Button from "components/Button"
 import NewsCard from "components/NewsCard"
+import NewsCard from "components/NewsCard"
+import Layout from "components/Layout"
 
 export default function News({ data }) {
   return (

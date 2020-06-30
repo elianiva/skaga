@@ -5,8 +5,9 @@ import Statistic from "parts/Statistic"
 import AboutJurusan from "parts/AboutJurusan"
 import News from "parts/News"
 import Instagallery from "parts/Instagallery"
+import { getSortedNews } from "lib/berita"
 
-export default function Home() {
+export default function Home({ allNews }) {
   return (
     <Layout title="Beranda">
       <Hero />
@@ -16,9 +17,18 @@ export default function Home() {
       <Statistic />
       <div className="max-w-5xl m-auto mt-8">
         <AboutJurusan />
-        <News />
+        <News data={allNews} />
       </div>
       <Instagallery />
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const allNews = getSortedNews()
+  return {
+    props: {
+      allNews
+    }
+  }
 }

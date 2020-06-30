@@ -1,4 +1,6 @@
 dependencies:
+  date-fns: 2.14.0
+  gray-matter: 4.0.2
   next: 9.4.4_react-dom@16.13.1+react@16.13.1
   next-react-svg: 1.1.1
   react: 16.13.1
@@ -2386,6 +2388,10 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-MJ6mFTZ+nPQO+39ua/ltwNePXrfdF3Ww0wP1Od7EePySXN1cP9XNqRQOG3FxTfipp8jx898LUCgBCEP11Qw/ZQ==
+  /date-fns/2.14.0:
+    dev: false
+    resolution:
+      integrity: sha512-1zD+68jhFgDIM0rF05rcwYO8cExdNqxjq4xP1QKM60Q45mnO6zaMWB4tOzrIr4M4GSLntsKeE4c9Bdl2jhL/yw==
   /debug/2.6.9:
     dependencies:
       ms: 2.0.0
@@ -2982,6 +2988,17 @@ packages:
   /graceful-fs/4.2.4:
     resolution:
       integrity: sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
+  /gray-matter/4.0.2:
+    dependencies:
+      js-yaml: 3.14.0
+      kind-of: 6.0.3
+      section-matter: 1.0.0
+      strip-bom-string: 1.0.0
+    dev: false
+    engines:
+      node: '>=6.0'
+    resolution:
+      integrity: sha512-7hB/+LxrOjq/dd8APlK0r24uL/67w7SkYnfwhNFwg/VDIGWGmduTDYf3WNstLW2fbbmRwrDGCVSJ2isuf2+4Hw==
   /has-ansi/2.0.0:
     dependencies:
       ansi-regex: 2.1.1
@@ -5544,6 +5561,15 @@ packages:
       node: '>= 8.9.0'
     resolution:
       integrity: sha512-wHutF/WPSbIi9x6ctjGGk2Hvl0VOz5l3EKEuKbjPlB30mKZUzb9A5k9yEXRX3pwyqVLPvpfZZEllaFq/M718hA==
+  /section-matter/1.0.0:
+    dependencies:
+      extend-shallow: 2.0.1
+      kind-of: 6.0.3
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-vfD3pmTzGpufjScBh50YHKzEu2lxBWhVEHsNGoEXmCmn2hKGfeNLYMzCJpe8cD7gqX7TJluOVpBkAequ6dgMmA==
   /semver/5.7.1:
     dev: false
     hasBin: true
@@ -5824,6 +5850,12 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-AuvKTrTfQNYNIctbR1K/YGTR1756GycPsg7b9bdV9Duqur4gv6aKqHXah67Z8ImS7WEz5QVcOtlfW2rZEugt6w==
+  /strip-bom-string/1.0.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-5SEekiQ2n7uB1jOi8ABE3IztrZI=
   /style-loader/1.2.1_webpack@4.43.0:
     dependencies:
       loader-utils: 2.0.0
@@ -6405,6 +6437,8 @@ packages:
     resolution:
       integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 specifiers:
+  date-fns: ^2.14.0
+  gray-matter: ^4.0.2
   next: ^9.4.4
   next-react-svg: ^1.1.1
   postcss-preset-env: ^6.7.0
