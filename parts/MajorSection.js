@@ -1,7 +1,7 @@
 import { Carousel } from "react-responsive-carousel"
 import Button from "components/Button"
 
-export default function AboutJurusan() {
+export default function MajorSection() {
   const data = [
     {
       name: "Perhotelan",
