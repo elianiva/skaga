@@ -1,5 +1,4 @@
 import Layout from "components/Layout"
-import Image from "components/Image"
 import Title from "components/Title"
 import Breadcrumb from "components/Breadcrumb"
 import SmallCard from "components/SmallCard"

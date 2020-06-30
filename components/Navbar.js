@@ -122,6 +122,11 @@ export default function Navbar({ currentPage }) {
                     Visi dan Misi
                   </a>
                 </Link>
+                <Link href="/lsp/struktur-organisasi">
+                  <a className="nunito block hover:bg-lightOrange hover:text-darkOrange rounded-md p-2">
+                    Struktur Organisasi
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
