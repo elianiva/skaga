@@ -4,7 +4,6 @@ dependencies:
   next: 9.4.4_react-dom@16.13.1+react@16.13.1
   next-react-svg: 1.1.1
   react: 16.13.1
-  react-countup: 4.3.3_react@16.13.1
   react-dom: 16.13.1_react@16.13.1
   react-responsive-carousel: 3.2.9
   remark: 12.0.0
@@ -2136,10 +2135,6 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-H65gsXo1SKjf8zmrJ67eJk8aIRKV5ff2D4uKZIBZShbhGSpEmsQOPW/SKMKYhSTrqR7ufy6RP69rPogdaPh/kA==
-  /countup.js/1.9.3:
-    dev: false
-    resolution:
-      integrity: sha1-zj5QzXFgRB5HjwfaMYle3MDxyd0=
   /create-ecdh/4.0.3:
     dependencies:
       bn.js: 4.11.9
@@ -5411,17 +5406,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-87lcbR8+MhcWcUiQ+9e+Rwx8MyR2P7qnt15ynUlbm3TU/fjbgz4GsvfSUDTemtCCtVCqb4ZcEFlyPNTh9bBTLw==
-  /react-countup/4.3.3_react@16.13.1:
-    dependencies:
-      countup.js: 1.9.3
-      prop-types: 15.7.2
-      react: 16.13.1
-      warning: 4.0.3
-    dev: false
-    peerDependencies:
-      react: '>= 16.3.0'
-    resolution:
-      integrity: sha512-pWnxpwdPNRyJFha/YKKbyc4RLAw8PzmULdgCziGIgw6vxhT1VdccrvQgj38HBSoM2qF/MoLmn4M2klvDWVIdaw==
   /react-dom/16.13.1_react@16.13.1:
     dependencies:
       loose-envify: 1.4.0
@@ -6665,12 +6649,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
-  /warning/4.0.3:
-    dependencies:
-      loose-envify: 1.4.0
-    dev: false
-    resolution:
-      integrity: sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
   /watchpack-chokidar2/2.0.0:
     dependencies:
       chokidar: 2.1.8
@@ -6809,7 +6787,6 @@ specifiers:
   next-react-svg: ^1.1.1
   postcss-preset-env: ^6.7.0
   react: ^16.13.1
-  react-countup: ^4.3.3
   react-dom: ^16.13.1
   react-responsive-carousel: ^3.2.9
   remark: ^12.0.0
