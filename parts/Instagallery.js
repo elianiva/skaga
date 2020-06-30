@@ -32,7 +32,7 @@ export default function Instagallery() {
           href="https://www.instagram.com/smkn3_jember/"
           target="_blank"
           rel="noopener"
-          className="text-orange"
+          className="text-orange font-semibold"
         >
           @smkn3_jember{" "}
         </a>
