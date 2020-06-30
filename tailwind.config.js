@@ -18,7 +18,7 @@ module.exports = {
     }
   },
   variants: {
-    display: ["responsive", "focus", "group-hover", "group-focus"]
+    display: ["responsive", "group-hover"]
   },
   plugins: []
 }
