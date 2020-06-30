@@ -2,16 +2,17 @@ import FacebookIcon from "public/icons/facebook_icon.svg"
 import InstagramIcon from "public/icons/instagram_icon.svg"
 import MailIcon from "public/icons/mail_icon.svg"
 import PhoneIcon from "public/icons/phone_icon.svg"
+import Image from "components/Image"
 
 export default function Footer() {
   return (
-    <>
+    <footer>
       <div className="pt-8 border-t-2 border-gray-300">
         <div className="flex max-w-5xl m-auto items-center">
           <div className="flex flex-col flex-1">
             <div className="flex items-center">
-              <img
-                src="/logo_skaga.jpg"
+              <Image
+                src="logo_skaga.jpg"
                 alt="Logo SMKN 3 Jember"
                 className="inline-block w-20 h-20 mr-2"
               />
@@ -50,8 +51,8 @@ export default function Footer() {
             style={{ width: `.125rem` }}
           ></div>
           <div className="flex-1">
-            <img
-              src="/map.jpg"
+            <Image
+              src="map.jpg"
               alt="Lokasi SMKN 3 Jember"
               className="max-h-40"
             />
@@ -65,6 +66,6 @@ export default function Footer() {
       <span className="open-sans text-lg my-4 text-center block">
         &copy; 1969 - 2020 SMK Negeri 3 Jember
       </span>
-    </>
+    </footer>
   )
 }

@@ -1,43 +1,44 @@
 import { Carousel } from "react-responsive-carousel"
 import Button from "components/Button"
+import Image from "components/Image"
 
 export default function MajorSection() {
   const data = [
     {
       name: "Perhotelan",
-      url: "/jurusan/perhotelan.jpg"
+      url: "jurusan/perhotelan.jpg"
     },
     {
       name: "Usaha Perjalanan Wisata",
-      url: "/jurusan/upw.jpg"
+      url: "jurusan/upw.jpg"
     },
     {
       name: "Tata Boga",
-      url: "/jurusan/tbg.jpg"
+      url: "jurusan/tbg.jpg"
     },
     {
       name: "Tata Busana",
-      url: "/jurusan/tbs.jpg"
+      url: "jurusan/tbs.jpg"
     },
     {
       name: "Desain Fesyen",
-      url: "/jurusan/df.jpg"
+      url: "jurusan/df.jpg"
     },
     {
       name: "Kecantikan Kulit dan Rambut",
-      url: "/jurusan/kecantikan.jpg"
+      url: "jurusan/kecantikan.jpg"
     },
     {
       name: "Teknik Komputer dan Jaringan",
-      url: "/jurusan/tkj.jpg"
+      url: "jurusan/tkj.jpg"
     },
     {
       name: "Rekayasa Perangkat Lunak",
-      url: "/jurusan/rpl.jpg"
+      url: "jurusan/rpl.jpg"
     },
     {
       name: "Multimedia",
-      url: "/jurusan/mm.jpg"
+      url: "jurusan/mm.jpg"
     }
   ]
 
@@ -53,7 +54,7 @@ export default function MajorSection() {
         <Button className="mt-4" href="/profil/jurusan" text="Selengkapnya" />
       </div>
       <div className="col-span-6 self-end rounded-md overflow-hidden">
-        <Carousel autoPlay infiniteLoop>
+        <Carousel autoPlay infiniteLoop showThumbs="false">
           {data.map((data, index) => (
             <div key={index}>
               <img src={data.url} alt={data.name} />

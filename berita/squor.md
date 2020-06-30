@@ -2,7 +2,7 @@
 title: "Tim Futsal SMKN 3 Jember berhasil meraih Juara dalam ajang SQUOR CUP 2019"
 excerpt: "Dolor provident nobis ut quasi vitae Quam temporibus sint nisi harum qui"
 date: "2019-03-21"
-cover: "/berita/squor.jpg"
+cover: "berita/squor.jpg"
 ---
 
 # Lorem Ipsum

@@ -1,11 +1,12 @@
 import Button from "components/Button"
+import Image from "components/Image"
 
 export default function About() {
   return (
     <div className="grid grid-cols-12 gap-4 my-8 text-blue-900">
       <div className="col-span-6">
-        <img
-          src="/about_cover.jpg"
+        <Image
+          src="about_cover.jpg"
           alt="Foto SMKN 3 Jember"
           className="w-11/12 h-full"
         />

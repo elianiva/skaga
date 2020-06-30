@@ -2,7 +2,7 @@
 title: "PPDB SMK Negeri 3 Jember Tahun Ajaran 2020/2021 Telah Dibuka"
 excerpt: "PPDB atau Penerimaan Peserta Didik Baru untuk tahun ajaran 2020/2021 telah dibuka. Ayo segera mendaftar!"
 date: "2020-04-01"
-cover: "/berita/ppdb.jpg"
+cover: "berita/ppdb.jpg"
 ---
 
 # Lorem Ipsum

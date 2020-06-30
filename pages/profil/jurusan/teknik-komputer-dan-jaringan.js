@@ -1,6 +1,7 @@
 import Layout from "components/Layout"
 import Breadcrumb from "components/Breadcrumb"
 import Title from "components/Title"
+import Image from "components/Title"
 
 export default () => {
   return (
@@ -8,11 +9,11 @@ export default () => {
       <div className="max-w-5xl pt-24 m-auto open-sans text-lg text-blue-900 leading-relaxed">
         <Breadcrumb />
         <Title title="Teknik Komputer dan Jaringan" />
-        <img
-          src="/jurusan/wide/tkj.jpg"
+        <Image
+          src="jurusan/wide/tkj.jpg"
           alt="Foto Jurusan Teknik Komputer dan Jaringan"
           className="m-auto object-cover rounded-md"
-          style={{height: `25rem`}}
+          style={{ height: `25rem` }}
         />
         <p className="my-8">
           Sit blanditiis necessitatibus ad accusantium consectetur Magnam minus

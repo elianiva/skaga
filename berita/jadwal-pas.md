@@ -2,7 +2,7 @@
 title: "Jadwal Penilaian Akhir Tahun Ajaran 2019/2020"
 excerpt: "Bagi peserta didik yang akan melaksanakan Penilaian Akhir Tahun, dapat melihat jadwalnya disini."
 date: "2020-02-19"
-cover: "/berita/jadwal-pas.jpg"
+cover: "berita/jadwal-pas.jpg"
 ---
 
 # Lorem Ipsum

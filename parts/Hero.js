@@ -1,11 +1,13 @@
+import Image from "components/Image"
+
 export default function Hero() {
   return (
     <div
       className="relative w-full z-0 nunito flex flex-col justify-center text-center text-white"
       style={{ height: `29rem` }}
     >
-      <img
-        src="/main_cover.jpg"
+      <Image
+        src="main_cover.jpg"
         alt="Foto SMKN 3 Jember"
         className="absolute w-full h-full z-0 object-cover"
       />

@@ -1,6 +1,7 @@
 import Layout from "components/Layout"
 import Breadcrumb from "components/Breadcrumb"
 import Title from "components/Title"
+import Image from "components/Image"
 
 export default function SekolahPage() {
   const misi = [
@@ -21,7 +22,7 @@ export default function SekolahPage() {
       <div className="max-w-5xl pt-24 m-auto open-sans text-lg text-blue-900 leading-relaxed">
         <Breadcrumb />
         <Title title="Profil SMKN 3 Jember" />
-        <img src="/smol_cover.jpg" alt="Foto SMKN 3 Jember" />
+        <Image src="smol_cover.jpg" alt="Foto SMKN 3 Jember" />
         <p className="my-8">
           SMKN 3 Jember merupakan Sekolah Menengah Kejuruan berbasis Pariwisata
           yang ada di Jember, Jawa Timur. Pada awal berdirinya, sekolah ini
