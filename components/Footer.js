@@ -70,8 +70,20 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <span className="open-sans text-lg mt-4 py-4 text-center block bg-gray-100">
+      <span className="open-sans text-lg mt-4 pt-4 text-center block">
         &copy; 1969 - 2020 SMK Negeri 3 Jember
+        <span className="open-sans text-sm mt-2 text-center block bg-gray-100">
+          Made by{" "}
+          <a
+            href="https://github.com/elianiva"
+            target="_blank"
+            rel="noopener"
+            className="font-semibold text-orange"
+          >
+            Elianiva
+          </a>{" "}
+          with &hearts;
+        </span>
       </span>
     </footer>
   )

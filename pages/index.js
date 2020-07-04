@@ -28,7 +28,7 @@ export async function getStaticProps() {
   const allNews = getSortedNews()
   return {
     props: {
-      allNews
-    }
+      allNews,
+    },
   }
 }
