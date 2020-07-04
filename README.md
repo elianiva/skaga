@@ -1,5 +1,7 @@
 # Website SMKN 3 Jember
-Sebuah keisengan redesign website [SMKN 3 Jember](https://smk3jember.sch.id). [Live](https://skaga.vercel.app)
+Sebuah keisengan redesign website [SMKN 3 Jember](https://smk3jember.sch.id).
+
+[Live](https://skaga.vercel.app)
 
 Technology / Packages used:
 - [Next JS](https://nextjs.org)
