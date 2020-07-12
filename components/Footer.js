@@ -72,8 +72,8 @@ export default function Footer() {
       </div>
       <span className="open-sans text-lg mt-4 pt-4 text-center block">
         &copy; 1969 - 2020 SMK Negeri 3 Jember
-        <span className="open-sans text-sm mt-2 text-center block bg-gray-100">
-          Made by{" "}
+        <span className="open-sans text-sm mt-2 pt-2 text-center block bg-gray-100">
+          Made with ❤ by{" "}
           <a
             href="https://github.com/elianiva"
             target="_blank"
@@ -81,10 +81,22 @@ export default function Footer() {
             className="font-semibold text-orange"
           >
             Elianiva
-          </a>{" "}
-          with &hearts;
+          </a>
+          <small className="block text-center text-gray-600 my-2 px-2 leading-relaxed">
+            Semua aset di website merupakan milik SMKN 3 Jember. Sebagian data
+            diambil dari website asli{" "}
+            <a
+              href="https://smk3jember.sch.id/"
+              target="_blank"
+              rel="noopener"
+              className="font-semibold text-orange"
+            >
+              SMKN 3 Jember.
+            </a>
+          </small>
         </span>
       </span>
     </footer>
   )
 }
+

@@ -14,10 +14,11 @@ export default function SkemaLSP() {
           <Skema title={data.title} tableData={data.table} />
         ))}
         <small className="block text-center text-gray-600">
-          udah lah bro, ini banyak banget skemanya, cape yg mau copas satu
+          udahlah bro, ini banyak banget skemanya, cape yg mau copas satu
           persatu
         </small>
       </div>
     </Layout>
   )
 }
+
