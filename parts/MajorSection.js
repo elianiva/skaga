@@ -4,42 +4,15 @@ import Image from "components/Image"
 
 export default function MajorSection() {
   const data = [
-    {
-      name: "Perhotelan",
-      url: "jurusan/perhotelan.jpg"
-    },
-    {
-      name: "Usaha Perjalanan Wisata",
-      url: "jurusan/upw.jpg"
-    },
-    {
-      name: "Tata Boga",
-      url: "jurusan/tbg.jpg"
-    },
-    {
-      name: "Tata Busana",
-      url: "jurusan/tbs.jpg"
-    },
-    {
-      name: "Desain Fesyen",
-      url: "jurusan/df.jpg"
-    },
-    {
-      name: "Kecantikan Kulit dan Rambut",
-      url: "jurusan/kecantikan.jpg"
-    },
-    {
-      name: "Teknik Komputer dan Jaringan",
-      url: "jurusan/tkj.jpg"
-    },
-    {
-      name: "Rekayasa Perangkat Lunak",
-      url: "jurusan/rpl.jpg"
-    },
-    {
-      name: "Multimedia",
-      url: "jurusan/mm.jpg"
-    }
+    { name: "Perhotelan", url: "jurusan/perhotelan.jpg" },
+    { name: "Usaha Perjalanan Wisata", url: "jurusan/upw.jpg" },
+    { name: "Tata Boga", url: "jurusan/tbg.jpg" },
+    { name: "Tata Busana", url: "jurusan/tbs.jpg" },
+    { name: "Desain Fesyen", url: "jurusan/df.jpg" },
+    { name: "Kecantikan Kulit dan Rambut", url: "jurusan/kecantikan.jpg" },
+    { name: "Teknik Komputer dan Jaringan", url: "jurusan/tkj.jpg" },
+    { name: "Rekayasa Perangkat Lunak", url: "jurusan/rpl.jpg" },
+    { name: "Multimedia", url: "jurusan/mm.jpg" }
   ]
 
   return (
@@ -59,7 +32,7 @@ export default function MajorSection() {
         <Carousel autoPlay infiniteLoop showThumbs="false">
           {data.map((data, index) => (
             <div key={index}>
-              <img src={data.url} alt={data.name} />
+              <Image src={data.url} alt={data.name} />
             </div>
           ))}
         </Carousel>
