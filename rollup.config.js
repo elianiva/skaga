@@ -2,6 +2,7 @@ import { createRollupConfigs } from "./scripts/base.config.js"
 import autoPreprocess from "svelte-preprocess"
 import postcssImport from "postcss-import"
 import postcss from "rollup-plugin-postcss"
+import svelteSvg from "rollup-plugin-svelte-svg"
 
 const production = !process.env.ROLLUP_WATCH
 process.env.NODE_ENV = production ? "production" : "development"
@@ -15,7 +16,8 @@ export const config = {
   rollupWrapper: rollup => {
     rollup.plugins = [
       ...rollup.plugins,
-      postcss({ plugins: [postcssImport()] })
+      postcss({ plugins: [postcssImport()] }),
+      svelteSvg(),
     ]
     return rollup
   },
@@ -23,11 +25,11 @@ export const config = {
     svelte.preprocess = [
       autoPreprocess({
         postcss: { plugins: [postcssImport()] },
-        defaults: { style: "postcss" }
-      })
+        defaults: { style: "postcss" },
+      }),
     ]
   },
-  swWrapper: worker => worker
+  swWrapper: worker => worker,
 }
 
 const configs = createRollupConfigs(config)

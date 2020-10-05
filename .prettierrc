@@ -1,0 +1,8 @@
+{
+  "svelteSortOrder" : "styles-markup-scripts",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": false,
+  "svelteAllowShorthand": false,
+  "arrowParens": 'avoid'
+}

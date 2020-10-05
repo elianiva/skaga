@@ -1,7 +1,14 @@
-<script>
-    import { metatags } from '@sveltech/routify'
-    metatags.title = 'My Routify app'
-    metatags.description = 'Description coming soon...'
-</script>
+<Hero />
+<div class="max-w-5xl m-auto mt-8 px-4 lg:px-0">
+  <About />
+</div>
+<Statistics />
 
-<h1 class="text-red-200 text-xl font-bold">hello world</h1>
+<script>
+  import { metatags } from "@sveltech/routify"
+  import Hero from "./_components/Hero.svelte"
+  import About from "./_components/About.svelte"
+  import Statistics from "./_components/Statistics.svelte"
+  metatags.title = "Beranda | SMKN 3 Jember"
+  metatags.description = "..."
+</script>

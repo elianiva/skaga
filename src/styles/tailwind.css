@@ -1,3 +1,94 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.nunito {
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+.open-sans {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.active {
+  color: #f48a4e;
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0.125rem;
+  background-color: #f48a4e;
+  border-radius: 1rem;
+}
+
+.bread-item::after {
+  content: "/";
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: #c4c4c4;
+}
+
+.thumbs-wrapper {
+  display: none;
+}
+
+.carousel-status {
+  display: none;
+}
+
+/*---markdown stuff---*/
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5 {
+  font-weight: bold;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+.markdown h1 {
+  font-size: 1.75rem;
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+}
+
+.markdown h3 {
+  font-size: 1.25rem;
+}
+
+.markdown p {
+  margin-bottom: 2rem;
+}
+
+/*---hamburger menu---*/
+.hamburger span {
+  height: 0.125rem;
+  transition: all ease-out 0.2s;
+}
+
+.hamburger input:checked ~ span:nth-child(2) {
+  transform: rotateZ(45deg) translateY(0.9rem);
+}
+
+.hamburger input:checked ~ span:nth-child(3) {
+  transform: scale(0);
+}
+
+.hamburger input:checked ~ span:nth-child(4) {
+  transform: rotateZ(-45deg) translateY(-0.9rem);
+}
+
+:global(.loaded) {
+  padding-bottom: 80% !important;
+}

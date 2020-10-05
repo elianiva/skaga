@@ -6,6 +6,6 @@ module.exports = {
   plugins: [
     require("tailwindcss"),
     production ? require("autoprefixer") : null,
-    ...(production ? [cssnano] : [])
-  ]
+    // ...(production ? [cssnano] : []),
+  ],
 }
