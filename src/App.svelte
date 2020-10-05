@@ -1,0 +1,7 @@
+<script>
+  import { Router } from "@sveltech/routify";
+  import { routes } from "../.routify/routes";
+  import "./styles/tailwind.css"
+</script>
+
+<Router {routes} />
